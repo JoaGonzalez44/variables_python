@@ -31,3 +31,18 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+Val_1 = float(input("inserte el primer valor... "))
+Val_2 = float(input("inserte el segundo valor... "))
+if Val_2 == 0:
+  Val_2 = float(input("por favor elija un numero distinto de cero para el segundo valor:  "))
+Suma = Val_1 + Val_2
+Resta = Val_1 - Val_2
+Multiplicación = Val_1 * Val_2 
+División = Val_1/Val_2 
+Potencia = Val_1 ** Val_2 
+print(f"la suma entre {Val_1} y {Val_2} es {Suma}")
+print(f"la resta entre {Val_1} y {Val_2} es {Resta}")
+print(f"la multiplicacion entre {Val_1} y {Val_2} es {Multiplicación}")
+print(f"la division entre {Val_1} y {Val_2} es {División}")
+print(f"{Val_1} elevado a {Val_2} es {Potencia}")
